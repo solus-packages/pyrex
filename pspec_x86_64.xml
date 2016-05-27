@@ -1,0 +1,132 @@
+<PISI>
+    <Source>
+        <Name>pyrex</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>Apache</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Language for writing Python extension modules</Summary>
+        <Description xml:lang="en">Language for writing Python extension modules
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>pyrex</Name>
+        <Summary xml:lang="en">Language for writing Python extension modules</Summary>
+        <Description xml:lang="en">Language for writing Python extension modules
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex-0.9.9-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Builtin.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Builtin.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/CmdLine.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/CmdLine.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Code.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Code.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/DebugFlags.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/DebugFlags.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/ExprNodes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/ExprNodes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Filenames.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Filenames.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Lexicon.pickle</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Lexicon.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Lexicon.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Main.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Main.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/ModuleNode.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/ModuleNode.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Naming.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Naming.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Nodes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Nodes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Options.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Options.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Parsing.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Parsing.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/PyrexTypes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/PyrexTypes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Scanning.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Scanning.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Symtab.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Symtab.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/TypeSlots.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/TypeSlots.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/Version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Compiler/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Debugging.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Debugging.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Distutils/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Distutils/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Distutils/build_ext.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Distutils/build_ext.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Distutils/extension.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Distutils/extension.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/DistutilsOld/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/DistutilsOld/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/DistutilsOld/build_ext.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/DistutilsOld/build_ext.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/DarwinSystem.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/DarwinSystem.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/MacSystem.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/MacSystem.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/MacUtils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/MacUtils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/TS_Misc_Suite.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/TS_Misc_Suite.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/setup.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Mac/setup.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Actions.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Actions.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/DFA.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/DFA.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Lexicons.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Lexicons.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Machines.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Machines.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Regexps.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Regexps.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Scanners.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Scanners.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Timing.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Timing.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Traditional.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Traditional.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Transitions.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/Transitions.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/test_tm.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Plex/test_tm.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Unix/LinuxSystem.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Unix/LinuxSystem.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Unix/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Unix/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/Utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/Pyrex/__init__.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-05-27</Date>
+            <Version>0.9.9</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
